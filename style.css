@@ -5,16 +5,67 @@ font-family: "fira sans" , sans
 }
 
 body {
-display:;
-flex-direction:;
-min-height: ;
+display: flex;
+flex-direction: column;
+min-height: 100vh ;
 background-color: aqua;
+color: rgb(78, 77, 77);
 }
 
 header {
-
+padding: 2 rem, 1 rem;
+max-width: 800px;
+width: 100px;
+margin: 0 auto;
 }
 
 header h1 {
+color: rgb(78, 77, 77) ;
+font-size: 2.5 rem;
+font-weight: 300;
+margin-bottom: 1 rem;
+}
+
+#New-task-form {
+    display:flex;
+}
+
+input, button {
+    appearance: none;
+    border:none;
+    outline: none ;
+    background:none;
+}
+
+#New-task-input {
+    flex: 1 1 0;
+    background-color:aqua;
+    padding: 1 rem;
+    border-radius:1 rem ;
+    margin-right: 1 rem;
+    color:black;
+    font-size: 1.25 rem;
+}
+
+#New-task-input::placeholder {
+    color:black;
+}
+
+#New-task-submit {
+    color: black;
+    font-size: 1.25 rem;
+    font-weight:100;
+
+    background-image: linear-gradient(to right, pink, white);
+    background-image: -moz-linear-gradient(to right, pink, white );
     
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+new-task-submit :hover {
+    opacity: 0.8;
+}
+new-task-submit:active {
+    opacity: .6;
 }
