@@ -69,3 +69,47 @@ new-task-submit :hover {
 new-task-submit:active {
     opacity: .6;
 }
+
+main {
+    flex: 1 1 0;
+    max-width: 800;
+    width: 100;
+    margin: 0;
+}
+
+.task-list {
+padding:1 rem ;
+}
+
+.task-list h2 {
+font-size: 1.5 rem;
+font-weight: 300;
+color: ;
+margin-bottom: ;
+}
+
+#tasks.task {
+
+}
+
+#tasks.task.content {
+
+}
+#tasks.task.content.text {
+
+}
+
+#tasks.task.content.text:not(:read-only){
+
+}
+
+#tasks .task .action {
+
+}
+
+.tasks .actions button {
+
+}
+.tasks .actions button :hover {
+
+}
